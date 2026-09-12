@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:linear-gradient( to left,#e9a8dd,#500a3e);
+    color: #222;
+    height: 30px;
+}
+section{
+    background-color:rgb(109, 15, 87);
+    text-align: center;
+    margin:25px;
+    padding: 25px;
+    border-radius:20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+body h1{
+    text-align: center;
+    padding:20px;
+}
+nav{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+section{
+    background:rgb(211, 154, 201);
+    margin:25px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(17, 1, 17, 0.2);
+    border: 2px solid rgb(7, 0, 7) ;
+}
+#home{
+    text-align:center;
+}
+#About p {
+    background-color: #a3628f;
+    padding: 25px ;
+    margin: 20px;
+    border: 2px solid rgb(7, 0, 7) ;
+    border-radius: 15px ;
+    box-shadow: 0 5px 10px  #a3628f;
+    line-height: 1.8;
+    text-align: left;
+     background:linear-gradient( to left,#bd5e97,#660d50);
+}
+#Skills{
+    text-align: center;
+}
+#Skills h4{
+    display:inline-block;
+    background-color:#a3628f;
+    border: 2px solid rgb(28, 6, 28) !important;
+    padding:15px 20px;
+    margin:10px;
+    border-radius:15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    background:linear-gradient( to left,#ac428c,#701058);
+}
+#Education{
+    text-align: center;
+}
+
+.Education{
+    background:#a36284;
+    border: 2px solid rgb(37, 3, 37) !important;
+    padding:15px;
+    border-radius:15px;
+    margin:15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background:linear-gradient( to left,#bd5e97,#51093f);
+}
+#Projects{
+     text-align: center;
+}
+#Projects h4{
+    background:#A3628f;
+    border: 2px solid rgb(10, 0, 10) !important;
+    padding:15px;
+    border-radius:15px;
+    margin:10px 0;
+     background:linear-gradient( to left,#bd5e97,#680c51);
+}
+
+#Internship {
+    text-align: center;
+}
+
+.internship-box {
+    background: #a3628f;
+    border: 2px solid rgb(34, 2, 34);
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.2s;
+    cursor: pointer;
+    background:linear-gradient( to left,#bd5e97,#680c51);
+}
+
+.internship-box:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+
+input,textarea{
+    width:90%;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #f1ebf2;
+}
+button{
+    background:#b9579a;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    
+}
+footer{
+    background:#936091;
+    text-align:center;
+    padding:15px;
+}
+footer a {
+    color: #140213;
+    text-decoration: none;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav a{
+    cursor:pointer;
+}
+#About p,
+#Skills h4,
+.Education,
+#Projects h4 {
+    cursor: pointer;
+    transition: 0.2s;
+}
+#Skills h4:active,
+#About p:active,
+.Education:active,
+#Projects h4:active {
+    transform: scale(0.9);
+    box-shadow: 0 2px 5px rgba(22, 1, 19, 0.3);
+     behavior: smooth;
+}
+body > h1 {
+    animation: appear 1.5s;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+section {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+section:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.927);
+}
+
+
